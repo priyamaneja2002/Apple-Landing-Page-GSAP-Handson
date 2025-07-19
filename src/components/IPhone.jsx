@@ -31,7 +31,7 @@ function Model(props) {
     });
   }, [materials, props.item]);
 
-  console.log('Model loaded:', nodes, materials);
+  // console.log('Model loaded:', nodes, materials);
   return (
     <group {...props} dispose={null}>
       <mesh
